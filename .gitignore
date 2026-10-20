@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Checkpoints, predictions, and generated arrays
+*.pth
+*.npy
+**/checkpoints*/
+**/predictions*/
+
+# Datasets (download separately; see dataset READMEs)
+cpm17/train/
+cpm17/test/
+nuinseg/*
+!nuinseg/README.md
+nuinseg_prepared/
+
+# Logs, metrics dumps, and local run artifacts
+results/
+*.log
+*_DONE
+*_FAILED
+*_status.txt
+report.html
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+*.swp

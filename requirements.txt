@@ -1,0 +1,7 @@
+numpy
+torch
+torchvision
+Pillow
+scipy
+tqdm
+scikit-image

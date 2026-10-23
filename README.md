@@ -1,11 +1,5 @@
 # OxbowFlow: Continuous Flow Decomposition for Nuclear Instance Segmentation
 
-**[CVPR 2027]** Official PyTorch implementation.
-
-> Sibtain Syed<sup>1</sup>, Ali Ahmed Qureshi<sup>1</sup>, Maqbool Khan<sup>2</sup><br>
-> <sup>1</sup>Comsat University Islamabad, Wah, Pakistan<br>
-> <sup>2</sup>American University of Bahrain, Riffa, Bahrain
-
 A ResNet-encoder U-Net predicts foreground $f$, potential $\varphi$, and meander $\alpha$. Pixels follow
 
 $$
